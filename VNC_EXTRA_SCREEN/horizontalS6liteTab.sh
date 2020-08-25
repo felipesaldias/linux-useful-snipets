@@ -5,4 +5,4 @@ xrandr --addmode HDMI-1-1 2000x1000_60.00
 xrandr --output HDMI-1-1 --mode 2000x1000_60.00 --right-of eDP-1-1
 xrandr --output HDMI-1-1 --mode 2000x1000_60.00 --right-of eDP-1-1
 gsettings set org.gnome.mutter edge-tiling false #disable auto resize
-x11vnc -clip  2000x1000+1920+0
+x11vnc -nocursorshape -clip  2000x1000+1920+0
